@@ -42,4 +42,4 @@ class Answer(models.Model):
     text_answer = models.TextField(null=True)
 
     def __str__(self):
-        return '{} : {}'.format(self.token, self.interview)
+        return '{} : {}'.format(self.user, self.interview)
